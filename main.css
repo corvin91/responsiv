@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+     font-family: "Roboto", sans-serif;
+}
+.container{
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+html{
+    background-color: hsla(207, 26%, 17%, 1);
+    color: white;
+}
+header{
+    background-color: hsla(209, 23%, 22%, 1);
+}
+.hewd ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 23px;
+}
+form{
+    padding-top: 48px;
+}
+input{
+    height: 56px;
+    border-radius: 5px;
+    width: 480px;
+    border: none;
+    color: white;
+    background-color: hsla(209, 23%, 22%, 1);
+}
+.icon{
+    position: absolute;
+    left: 155px;
+    top: 155px;
+}
+.divn h1{
+    position: relative;
+    bottom: 30px;
+
+}
+.ota{
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 135px;
+}
+.divn{
+    height: 250px;
+    border-radius: 5px;
+    width: 264px;
+    background-color: hsla(209, 23%, 22%, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+@media screen and (max-width: 834px) {
+    body{
+        height: 1628px;
+        width: 834px;
+    }
+     .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputcha{
+        height: 101px;
+        width: 768px;
+    }
+    .ota{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 78px;
+    }
+    .divn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+}
+@media screen and (max-width: 375px) {
+    body{
+        height: 1628px;
+        width: 834px;
+    }
+     .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputcha{
+        height: 48px;
+        width: 343px;
+    }
+    .ota{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 78px;
+    }
+    .divn{
+        width: 264px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+}
